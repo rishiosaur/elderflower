@@ -1,0 +1,14 @@
+.fadeOut {
+  position: relative;
+}
+
+.fadeOut:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background-color: aliceblue; */
+  background: linear-gradient(90deg, transparent 85%, var(--bg-color));
+}
