@@ -197,14 +197,14 @@ export const SpotifyPlaylistBaguette: BaguetteComponent<
                   textOverflow: "ellipsis",
                 }}
               >
-                <motion.h4
+                <motion.p
                   style={{
                     whiteSpace: "nowrap",
                     fontSize: "smaller",
                   }}
                 >
                   {it.track?.name}
-                </motion.h4>
+                </motion.p>
                 <motion.p
                   style={{
                     display: "inline-flex",

@@ -185,7 +185,6 @@ export const Baguette = <T extends BaguetteTypes>({
   args,
   display,
   id,
-  index,
 }: // key,
 Baguette<T>) => {
   const Component = BaguetteMap[type];
@@ -335,7 +334,9 @@ Baguette<T>) => {
           BaguetteDisplay.CoverMute,
         ].includes(display) && (
           <>
-            {type === BaguetteTypes.Markdown && (
+            {[BaguetteTypes.Markdown, BaguetteTypes.SpotifyPlaylist].includes(
+              type
+            ) && (
               <>
                 <BaguetteButton
                   id={id}
