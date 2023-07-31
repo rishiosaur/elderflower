@@ -1,8 +1,8 @@
 :root {
-  --bg-color: #fefae0;
-  --accent-color: #bbc893;
+  --bg-color: #080808;
+  --accent-color: #e26d5c;
   /* --soft-color: #1f0f2e; */
-  --main-color: #463f3a;
+  --main-color: #fffffa;
 }
 * {
   box-sizing: border-box;
