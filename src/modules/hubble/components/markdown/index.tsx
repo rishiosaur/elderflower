@@ -503,7 +503,10 @@ export const HubbleRaw: React.FC<{
           style={{
             display: "inline",
             color: "var(--main-color)",
-            textDecoration: "solid underline var(--accent-color)",
+            textDecoration: "solid underline var(--accent-color) 4px",
+          }}
+          whileHover={{
+            textDecoration: "solid underline var(--accent-color) 6px",
           }}
           href={n.properties?.href}
         >
